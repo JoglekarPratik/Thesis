@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title goes here...</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="libraries/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Our Code Starts Here -->
+    <!-- Navbar starts-->
+    <nav class="navbar navbar-light">
+      <div class="navbar-header">
+        <span class="fontSizeHeaderCustom navbar-brand mb-0 h1">Create</span>
+      </div>
+    </nav>
+    <!-- Navbar ends-->
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <img src="images/gender/lady.png" id="changeGender" width="28%" height="auto"/>
+          <p class="fontSizeBody">Tap face to randomize</p>
+        </div>
+      </div>
+
+        <!-- Gender -->
+        <div class="row text-center">
+          <div class="col-12 mainPadding">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <a onclick="changeImage6()" value="Change"><input type="radio" name="options" id="option1" autocomplete="off" checked> Female</a>
+              </label>
+              <label class="btn btn-secondary">
+                <a onclick="changeImage7()" value="Change"><input type="radio" name="options" id="option2" autocomplete="off"> Male</a>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skin tone -->
+        <div class="row text-center">
+          <div class="col-12 rowPadding">
+            <p class="fontSizeBody">Change skin tone</p>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                  <input type="radio" name="options" id="option1" autocomplete="off" checked> 1
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option2" autocomplete="off"> 2
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> 3
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option4" autocomplete="off"> 4
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option5" autocomplete="off"> 5
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-12 mainPadding">
+                <button type="button" class="buttonMain" onclick="location.href='customize.html';">Customize Now</button>
+            </div>
+            <div class="col-12 rowPadding">
+                <button type="button" class="buttonSecondary" onclick="location.href='home.html';">Customize later</button>
+            </div>
+        </div>
+      </div>
+
+      <div class="rowPadding"></div>
+
+
+    <!-- Our Code Ends Here -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom JS in the "bucket" -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/bucket.js"></script>
+  </body>
+</html>

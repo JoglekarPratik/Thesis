@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title goes here...</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="libraries/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Our Code Starts Here -->
+    <!-- Navbar starts-->
+    <nav class="navbar snavbar-light bg-light">
+      <div class="navbar-header">
+        <span class="fontSizeHeaderCustom navbar-brand mb-0 h1">Create</span>
+      </div>
+    </nav>
+    <!-- Navbar ends-->
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <img src="images/gender/mainman.png" width="28%" height="auto"/>
+          <section id="picker">
+            <p class="fontSizeBody">Hair</p>
+            <input type="range" min="0" step="0.1" max="360" id="hsl-h">
+          </section>
+          <p class="fontSizeBody">Tap face to randomize</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Style -->
+    <div class="container">
+      <div class="row rowsPadding">
+        <div class="col-4 text-center"><a onclick="changeImage4()" value="Change"><p class="fontSizeBody">Hair</p></a></div>
+        <div class="col-4 text-center"><p class="fontSizeBody">Shirt</p></div>
+        <div class="col-4 text-center"><a onclick="changeImage5()" value="Change"><p class="fontSizeBody">Accessories</p></a></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row rowPadding">
+        <div class="col-2 text-right"><img src="images/misc/hairstyles.png" id="change" alt="Hair styles"></div>
+      </div>
+    </div>
+
+    <!-- Footer starts-->
+    <nav class="navbar bottom navbar-light bg-light">
+      <div class="navbar-footer">
+        <a onclick="next" class="fontSizeBody navbar-brand" href="connected.html"><h5>Next ></h5></a>
+      </div>
+    </nav>
+    <!-- Footer ends-->
+
+    <!-- Our Code Ends Here -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom JS in the "bucket" -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/bucket.js"></script>
+  </body>
+</html>

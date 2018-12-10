@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title goes here...</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="libraries/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Our Code Starts Here -->
+    <!-- Navbar starts-->
+    <nav class="navbar sticky-top navbar-light bg-light">
+      <div class="navbar-header">
+        <span class="fontSizeHeaderCustom navbar-brand mb-0 h1">Interests</span>
+        <p class="fontSizeBody">What do you like to do? Minimum 3.<br><br><i>For the purpose of this presentation please select <u>meditate</u>, <u>socialize</u> and <u>walk.</u></i></p>
+      </div>
+    </nav>
+    <!-- Navbar ends-->
+
+    <div class="container">
+      <div class="row rowPadding text-center">
+        <div class="col-6">
+          <img class="interest" src="images/interests/coffee.png" alt="Coffee">
+        </div>
+        <div class="col-6">
+          <img class="interest" src="images/interests/craft.png" alt="Craft">
+        </div>
+      </div>
+
+      <div class="row rowPadding text-center">
+        <div class="col-6">
+          <img class="interest" src="images/interests/food.png" alt="Food">
+        </div>
+        <div class="col-6">
+          <img class="interest" src="images/interests/games.png" alt="Games">
+        </div>
+      </div>
+
+      <div class="row rowPadding text-center">
+        <div class="col-6">
+          <a onclick="changeImage1()" value="Change"><img class="interest" src="images/interests/meditate.png" id="myImage1" alt="Meditate"></a>
+        </div>
+        <div class="col-6">
+          <img class="interest" src="images/interests/music.png" alt="Music">
+        </div>
+      </div>
+
+      <div class="row rowPadding text-center">
+        <div class="col-6">
+          <img class="interest" src="images/interests/read.png" alt="Read">
+        </div>
+        <div class="col-6">
+          <a onclick="changeImage2()" value="Change"><img class="interest" src="images/interests/social.png" id="myImage2" alt="Social"></a>
+        </div>
+      </div>
+
+      <div class="row rowPadding text-center">
+        <div class="col-6">
+          <img class="interest" src="images/interests/talk.png" alt="Talk">
+        </div>
+        <div class="col-6">
+          <a onclick="changeImage3()" value="Change"><img class="interest" src="images/interests/walk.png" id="myImage3" alt="Walk">
+        </div></a>
+      </div>
+
+    </div>
+
+    <!-- Footer starts-->
+    <nav class="navbar bottom navbar-light bg-light">
+      <div class="navbar-footer">
+        <a onclick="next()" id="nexts" value="change" class="fontSizeBody navbar-brand" href="gender.html"><h5>Next ></h5></a>
+      </div>
+    </nav>
+    <!-- Footer ends-->
+
+    <!-- Our Code Ends Here -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom JS in the "bucket" -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/bucket.js"></script>
+  </body>
+</html>
